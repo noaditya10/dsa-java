@@ -39,4 +39,15 @@ public class Array {
 
          count--;
     }
+
+    public int indexOf(int item) {
+        //runtime complexity : O(n)
+        for(int i = 0; i < count; i++)
+            if(item == items[i]){
+                return i;
+            }
+        return -1;
+
+        //otherwise, return -1
+    }
 }
