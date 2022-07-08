@@ -6,6 +6,9 @@ public class Main {
 
         numbers.insert(11);
         numbers.insert(21);
+        numbers.insert(32);
+        numbers.insert(42);
+        numbers.removeAt(5);
         numbers.print();
     }
 }
